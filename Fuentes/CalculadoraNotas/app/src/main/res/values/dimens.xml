@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="marginBase">20dp</dimen>
+    <dimen name="tamanioImagen">100dp</dimen>
+    <dimen name="tamanioLetra">25sp</dimen>
+    <dimen name="marginBase2">35dp</dimen>
+    <dimen name="tamanioBtn">100dp</dimen>
+
+
+</resources>

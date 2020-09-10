@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CalculadoraNotas</string>
+    <string name="n1Label">Nota</string>
+    <string name="titulo">Registre sus notas para calcular</string>
+    <string name="subtitulo">Notas registradas</string>
+    <string name="btn2">Limpiar</string>
+    <string name="btn1">Agregar</string>
+</resources>
