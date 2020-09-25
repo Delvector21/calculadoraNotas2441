@@ -24,8 +24,8 @@
 
         <EditText
             android:hint="Nota"
-            android:text="Nota"
             android:id="@+id/notaTxt"
+            android:textSize="@dimen/tamanioLetra"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="numberDecimal"
@@ -34,7 +34,8 @@
 
         </EditText>
         <EditText
-            android:text="Porcentaje %"
+            android:hint="Porcentaje %"
+            android:textSize="@dimen/tamanioLetra"
             android:id="@+id/Porcentajetxt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -77,6 +78,34 @@
             android:textSize="@dimen/tamanioLetra">
         </Button>
 </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/promedioLl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/marginBase"
+        android:orientation="horizontal"
+        android:visibility="invisible">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Promedio"
+            android:textAllCaps="true"
+            android:textSize="@dimen/tamanioLetra">
+        </TextView>
+
+        <TextView
+            android:id="@+id/promedioTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text=""
+            android:textSize="@dimen/tamanioLetra">
+         </TextView>
+
+    </LinearLayout>
 
     <TextView
         android:layout_width="match_parent"

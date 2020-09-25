@@ -2,21 +2,26 @@ package cl.inacap.calculadoranotas.dto;
 
 public class Nota {
     private double valor;
-    private double promedio;
+    private int porcentaje;
 
     public double getValor() {
         return valor;
+    }
+
+    public int getPorcentaje() {
+        return porcentaje;
     }
 
     public void setValor(double valor) {
         this.valor = valor;
     }
 
-    public double getPromedio() {
-        return promedio;
+    public void setPorcentaje(int porcentaje) {
+        this.porcentaje = porcentaje;
     }
 
-    public void setPromedio(double promedio) {
-        this.promedio = promedio;
+    @Override
+    public String toString() {
+        return valor + " " + porcentaje + "%";
     }
 }
